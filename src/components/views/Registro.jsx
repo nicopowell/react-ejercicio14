@@ -1,31 +1,41 @@
 import React from "react";
-import { Button, Form } from "react-bootstrap";
+import { Button, Card, Container, Form } from "react-bootstrap";
 
 const Registro = () => {
   return (
-    <div className="pt-5 mainSection">
-      <h3 className="text-center">Registro</h3>
-      <div className="row justify-content-center">
-        <div className="col-12 col-sm-8 col-md-6 col-xl-4">
+    <Container className="mainSection">
+      <Card className="my-5">
+        <Card.Header as="h5">Login</Card.Header>
+        <Card.Body>
           <Form>
-            <Form.Group className="mb-2">
-              <Form.Control type="text" placeholder="Ingrese un nombre de usuario" />
+          <Form.Group className="mb-3" controlId="formBasicUser">
+              <Form.Label>Usuario</Form.Label>
+              <Form.Control
+                type="text"
+                placeholder="Ingrese un usuario"
+              />
             </Form.Group>
-            <Form.Group className="mb-2">
-              <Form.Control placeholder="Ingrese un email" />
+            <Form.Group className="mb-3" controlId="formBasicEmail">
+              <Form.Label>Email</Form.Label>
+              <Form.Control
+                type="email"
+                placeholder="Ingrese un email"
+              />
             </Form.Group>
-            <Form.Group className="mb-2">
-              <Form.Control type="password" placeholder="Ingrese un password" />
+            <Form.Group className="mb-3" controlId="formBasicPassword">
+              <Form.Label>Contraseña</Form.Label>
+              <Form.Control
+                type="password"
+                placeholder="Contraseña"
+              />
             </Form.Group>
-            <div className="row">
-              <Button className="btn btn-dark btn-lg btn-block mb-2" type="submit">
-                Registrar
-              </Button>
-            </div>
+            <Button variant="primary" type="submit">
+              Ingresar
+            </Button>
           </Form>
-        </div>
-      </div>
-    </div>
+        </Card.Body>
+      </Card>
+    </Container>
   );
 };
 

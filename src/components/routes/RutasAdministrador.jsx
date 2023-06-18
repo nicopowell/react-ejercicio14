@@ -1,0 +1,26 @@
+import { Routes, Route } from "react-router-dom";
+import Administrador from "../views/Administrador";
+import CrearReceta from "../views/recetas/CrearReceta";
+import EditarReceta from "../views/recetas/EditarReceta";
+
+const RutasAdministrador = () => {
+  return (
+    <>
+      <Routes>
+        <Route exact path="/" element={<Administrador></Administrador>}></Route>
+        <Route
+          exact
+          path="/crear-producto"
+          element={<CrearReceta></CrearReceta>}
+        ></Route>
+        <Route
+          exact
+          path="/editar-producto/:id"
+          element={<EditarReceta></EditarReceta>}
+        ></Route>
+      </Routes>
+    </>
+  );
+};
+
+export default RutasAdministrador;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const RutasProtegidas = () => {
+const DetalleReceta = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const RutasProtegidas = () => {
   );
 };
 
-export default RutasProtegidas;
+export default DetalleReceta;

@@ -1,19 +1,18 @@
 {
-  "posts": [
+  "recetas": [
     {
       "id": 1,
       "title": "json-server",
       "author": "typicode"
     }
   ],
-  "comments": [
+  "usuarios": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "nombreUsuario": "admin",
+      "email": "admin@rollingcode.com",
+      "password": "Soyadmin1!",
+      "administrador": true
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

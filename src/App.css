@@ -7,3 +7,14 @@
 .mainSection{
   flex-grow: 1;
 }
+
+.banner{
+  object-fit: cover;
+  height: 395px;
+  width: 100%;
+}
+
+.imagenCard {
+  max-height: 350px;
+  object-fit: cover;
+}

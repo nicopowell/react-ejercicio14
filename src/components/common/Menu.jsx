@@ -10,7 +10,7 @@ const Menu = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link href="#home">Inicio</Nav.Link>
-            <Nav.Link href="#link">Recetas</Nav.Link>
+            <Nav.Link href="#link">Administrador</Nav.Link>
             <Nav.Link href="#link">Registro</Nav.Link>
             <Nav.Link href="#link">Ingresar</Nav.Link>
           </Nav>

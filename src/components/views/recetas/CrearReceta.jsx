@@ -40,6 +40,10 @@ const CrearReceta = () => {
             placeholder="Ej: https://www.pexels.com/es-es/vans-en-blanco-y-negro-fuera-de-la-decoracion-para-colgar-en-la-pared-1230679/"
           />
         </Form.Group>
+        <Form.Group className="mb-3" controlId="formPrecio">
+          <Form.Label>Descripcion*</Form.Label>
+          <Form.Control as="textarea" placeholder={`Esta receta de pizza facil y rapida`} />
+        </Form.Group>
         <Button variant="primary" type="submit">
           Guardar
         </Button>

@@ -6,6 +6,7 @@
 
 .mainSection {
   flex-grow: 1;
+  margin-top: 56px;
 }
 
 .banner {

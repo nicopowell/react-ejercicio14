@@ -19,7 +19,7 @@ function App() {
       <BrowserRouter>
         <Menu></Menu>
         <Routes>
-          <Route exact path="/" element={<CrearReceta></CrearReceta>}></Route>
+          <Route exact path="/" element={<Login></Login>}></Route>
           <Route exact path="/registro" element={<Registro></Registro>}></Route>
           <Route exact path="/login" element={<Login></Login>}></Route>
           <Route exact path="/detalle" element={<DetalleReceta></DetalleReceta>}></Route>

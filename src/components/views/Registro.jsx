@@ -5,7 +5,7 @@ const Registro = () => {
   return (
     <Container className="mainSection">
       <Card className="my-5">
-        <Card.Header as="h5">Login</Card.Header>
+        <Card.Header as="h5">Registro</Card.Header>
         <Card.Body>
           <Form>
           <Form.Group className="mb-3" controlId="formBasicUser">
@@ -30,7 +30,7 @@ const Registro = () => {
               />
             </Form.Group>
             <Button variant="primary" type="submit">
-              Ingresar
+              Registrarse
             </Button>
           </Form>
         </Card.Body>

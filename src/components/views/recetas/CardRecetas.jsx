@@ -5,11 +5,14 @@ const CardRecetas = () => {
   return (
     <Col md={4} ld={3} className="mb-3">
       <Card>
-        <Card.Img
-          variant="top"
-          src="https://images.pexels.com/photos/1146760/pexels-photo-1146760.jpeg"
-          className="imagenCard"
-        />
+        <div className="overflow-hidden">
+          <Card.Img
+            variant="top"
+            src="https://images.pexels.com/photos/1146760/pexels-photo-1146760.jpeg"
+            className="imagenCard"
+          />
+        </div>
+
         <Card.Body>
           <Card.Title>Pizza</Card.Title>
           <Card.Text>
@@ -21,7 +24,7 @@ const CardRecetas = () => {
             <p>Facil</p>
           </div>
           <hr />
-          <Button variant="primary">Ver detalle</Button>
+          <Button variant="dark">Ver detalle</Button>
         </Card.Body>
       </Card>
     </Col>

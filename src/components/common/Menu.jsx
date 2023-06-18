@@ -3,7 +3,7 @@ import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 
 const Menu = () => {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-body-tertiary" fixed="top">
       <Container>
         <Navbar.Brand href="#home">Rolling Chef</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

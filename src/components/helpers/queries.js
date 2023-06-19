@@ -34,10 +34,35 @@ export const consultaListaRecetas = async () =>{
     }
 }
 
+export const consultaReceta = async (id) =>{
+    try{
+        const respuesta = await fetch(URLRecetas+'/'+id);
+        const receta = await respuesta.json();
+        return receta;
+    }catch(error){
+        console.log(error);
+    }
+}
+
 export const consultaAgregarReceta = async (receta) =>{
     try{
         const respuesta = await fetch(URLRecetas, {
             method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(receta)
+        });
+        return respuesta;
+    }catch(error){
+        console.log(error);
+    }
+}
+
+export const consultaEditarReceta = async (receta, id) =>{
+    try{
+        const respuesta = await fetch(URLRecetas+'/'+id, {
+            method: "PUT",
             headers: {
                 "Content-Type": "application/json"
             },

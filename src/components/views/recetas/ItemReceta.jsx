@@ -1,7 +1,7 @@
 import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
-
-const ItemProducto = ({receta, setReceta}) => {
+const ItemProducto = ({ receta, setReceta }) => {
   return (
     <tr>
       <td>{receta.id}</td>
@@ -11,9 +11,9 @@ const ItemProducto = ({receta, setReceta}) => {
       <td>{receta.categoria}</td>
       <td className="urlTabla">{receta.imagen}</td>
       <td>
-        <Button variant="warning" className="m-1">
+        <Link className="btn btn-warning m-1" to={"/administrador/editar-receta/" + receta.id}>
           Editar
-        </Button>
+        </Link>
         <Button variant="danger" className="m-1">
           Borrar
         </Button>

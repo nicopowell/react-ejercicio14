@@ -25,7 +25,7 @@ const Login = ({ setUsuarioLogueado }) => {
         );
         setUsuarioLogueado(respuesta);
         //redireccionar
-        navegacion("/administrador");
+        navegacion("/");
       } else {
         Swal.fire("Error", "Email o password incorrecto ", "error");
       }

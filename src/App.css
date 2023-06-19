@@ -16,9 +16,14 @@
 }
 
 .imagenCard {
-  max-height: 350px;
+  height: 250px;
   object-fit: cover;
   transition: ease 0.4s;
+}
+
+.imagenDetalle {
+  max-height: 500px;
+  object-fit: cover;
 }
 
 .card:hover .imagenCard {

@@ -43,7 +43,7 @@ const DetalleReceta = () => {
           <Card className="mt-5">
             <Row>
               <Col md={6}>
-                <Card.Img variant="top" src={receta.imagen} alt={receta.nombre} />
+                <Card.Img className="imagenDetalle" variant="top" src={receta.imagen} alt={receta.nombre} />
               </Col>
               <Col md={6}>
                 <Card.Body>

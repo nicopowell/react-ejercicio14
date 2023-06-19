@@ -1,11 +1,18 @@
 import React from "react";
 import { Button, Container, Nav, Navbar } from "react-bootstrap";
 import { Link, NavLink, useNavigate } from "react-router-dom";
+import Swal from "sweetalert2";
+
 const Menu = ({ usuarioLogueado, setUsuarioLogueado }) => {
   const navegacion = useNavigate();
   const logout = () => {
     setUsuarioLogueado({});
     sessionStorage.removeItem("usuario");
+    Swal.fire(
+      "Cerraste sesión",
+      `Se cerro la sesión correctamente`,
+      "success"
+    );
     navegacion("/");
   };
 
@@ -24,9 +31,9 @@ const Menu = ({ usuarioLogueado, setUsuarioLogueado }) => {
 
             {usuarioLogueado.nombreUsuario ? (
               <>
-                <NavLink className={"nav-item nav-link"} to="/administrador">
+                {usuarioLogueado.administrador ? (<NavLink className={"nav-item nav-link"} to="/administrador">
                   Administrador
-                </NavLink>
+                </NavLink>) : (null)}
                 <Button className={"nav-item nav-link"} variant="dark" id="botonLogout" onClick={logout}>
                   Logout
                 </Button>

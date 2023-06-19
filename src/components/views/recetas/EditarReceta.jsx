@@ -90,8 +90,8 @@ const EditarReceta = () => {
                 message: "La cantidad minima de caracteres es de 2 y los ingredientes deben estar separados por por saltos de linea",
               },
               maxLength: {
-                value: 2000,
-                message: "La cantidad máxima de caracteres es de 50 y los ingredientes deben estar separados por por saltos de linea",
+                value: 150,
+                message: "La cantidad máxima de caracteres es de 100 y los ingredientes deben estar separados por por saltos de linea",
               }
             })}
           />
@@ -109,8 +109,8 @@ const EditarReceta = () => {
                 message: "La cantidad minima de caracteres es de 2 y los pasos deben estar separados por saltos de linea",
               },
               maxLength: {
-                value: 2000,
-                message: "La cantidad máxima de caracteres es de 50 y los pasos deben estar separados por saltos de linea",
+                value: 5000,
+                message: "La cantidad máxima de caracteres es de 5000 y los pasos deben estar separados por saltos de linea",
               }
             })}
           />

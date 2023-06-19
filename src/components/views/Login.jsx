@@ -15,7 +15,6 @@ const Login = ({ setUsuarioLogueado }) => {
   const navegacion = useNavigate();
 
   const onSubmit = (usuario) => {
-    console.log(usuario);
     login(usuario).then((respuesta) => {
       if (respuesta) {
         sessionStorage.setItem("usuario", JSON.stringify(respuesta));

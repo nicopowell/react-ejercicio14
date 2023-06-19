@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Container, Row } from "react-bootstrap";
 import CardRecetas from "./recetas/CardRecetas";
+import { consultaListaRecetas } from "../helpers/queries";
 
 const Inicio = () => {
+  const [recetas, setRecetas] = useState([]);
+
+  useEffect(() => {
+    consultaListaRecetas().then((respuesta) => {
+      setRecetas(respuesta);
+    });
+  }, []);
   return (
     <div className="mainSection">
       <img
@@ -13,12 +21,9 @@ const Inicio = () => {
       <Container className="my-3">
         <h1 className="display-4 text-center mb-3">Nuestras recetas</h1>
         <Row>
-          <CardRecetas></CardRecetas>
-          <CardRecetas></CardRecetas>
-          <CardRecetas></CardRecetas>
-          <CardRecetas></CardRecetas>
-          <CardRecetas></CardRecetas>
-          <CardRecetas></CardRecetas>
+          {recetas.map((receta) => (
+            <CardRecetas key={receta.id} receta={receta}></CardRecetas>
+          ))}
         </Row>
       </Container>
     </div>

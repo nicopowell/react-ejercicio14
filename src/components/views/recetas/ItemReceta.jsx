@@ -1,20 +1,20 @@
 import { Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
 
 
-const ItemProducto = () => {
+const ItemProducto = ({receta, setReceta}) => {
   return (
     <tr>
-      <td>1</td>
-      <td>Pizza</td>
-      <td>Salado</td>
-      <td>40 min</td>
-      <td className="urlTabla">https://images.pexels.com/photos/1146760/pexels-photo-1146760.jpeg</td>
+      <td>{receta.id}</td>
+      <td>{receta.nombre}</td>
+      <td>{receta.tiempo}</td>
+      <td>{receta.cantidad}</td>
+      <td>{receta.categoria}</td>
+      <td className="urlTabla">{receta.imagen}</td>
       <td>
-        <Button variant="warning">
+        <Button variant="warning" className="m-1">
           Editar
         </Button>
-        <Button variant="danger">
+        <Button variant="danger" className="m-1">
           Borrar
         </Button>
       </td>

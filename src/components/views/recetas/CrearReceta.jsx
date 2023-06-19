@@ -1,5 +1,7 @@
 import { Form, Button } from "react-bootstrap";
 import { useForm } from "react-hook-form";
+import { consultaAgregarReceta } from "../../helpers/queries";
+import Swal from "sweetalert2";
 
 const CrearReceta = () => {
   const {
@@ -48,7 +50,7 @@ const CrearReceta = () => {
               maxLength: {
                 value: 50,
                 message: "La cantidad máxima de caracteres es de 50",
-              },
+              }
             })}
           />
           <Form.Text className="text-danger">{errors.nombre?.message}</Form.Text>
@@ -57,14 +59,17 @@ const CrearReceta = () => {
           <Form.Label>Ingredientes*</Form.Label>
           <Form.Control
             as="textarea"
-            placeholder={`Agregar ingredientes separados por ///, por ejemplo: "1kg de Harina///2 Huevos"`}
+            placeholder={`Agregar ingredientes separados por saltos de linea`}
             {...register("ingredientes", {
               required: "Los ingredientes son un campo obligatorio",
-              pattern: {
-                value: /^[\w]{10,500}(\/\/\/\w+)?$/,
-                message:
-                  "Los ingredientes deben contener entre 10 y 500 caracteres y estar separados por /// entre ellos",
+              minLength: {
+                value: 10,
+                message: "La cantidad minima de caracteres es de 2 y los ingredientes deben estar separados por por saltos de linea",
               },
+              maxLength: {
+                value: 2000,
+                message: "La cantidad máxima de caracteres es de 50 y los ingredientes deben estar separados por por saltos de linea",
+              }
             })}
           />
           <Form.Text className="text-danger">{errors?.ingredientes?.message}</Form.Text>
@@ -73,14 +78,17 @@ const CrearReceta = () => {
           <Form.Label>Instrucciones*</Form.Label>
           <Form.Control
             as="textarea"
-            placeholder={`Mezclar en un bol el harina con...`}
+            placeholder={`Agregar las instrucciones separando los pasos con saltos de linea`}
             {...register("instrucciones", {
               required: "Las instrucciones son un campo obligatorio",
-              pattern: {
-                value: /^[\w]{10,500}(\/\/\/\w+)?$/,
-                message:
-                  "Las instrucciones deben contener entre 10 y 1000 caracteres y estar separados por /// entre cada paso",
+              minLength: {
+                value: 10,
+                message: "La cantidad minima de caracteres es de 2 y los pasos deben estar separados por saltos de linea",
               },
+              maxLength: {
+                value: 2000,
+                message: "La cantidad máxima de caracteres es de 50 y los pasos deben estar separados por saltos de linea",
+              }
             })}
           />
           <Form.Text className="text-danger">{errors?.instrucciones?.message}</Form.Text>
@@ -125,6 +133,7 @@ const CrearReceta = () => {
           <Form.Select
             {...register("categoria", {
               required: "La categoria es obligatoria",
+              validate: value => value !== ""
             })}
           >
             <option value="">Seleccione una opcion</option>
@@ -150,7 +159,7 @@ const CrearReceta = () => {
               },
             })}
           />
-          <Form.Text className="text-danger">{errors?.cantidad?.message}</Form.Text>
+          <Form.Text className="text-danger">{errors?.descripcion?.message}</Form.Text>
         </Form.Group>
         <Form.Group className="mb-3" controlId="formImagen">
           <Form.Label>Imagen URL*</Form.Label>

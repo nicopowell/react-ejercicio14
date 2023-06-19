@@ -9,7 +9,7 @@ const ItemProducto = () => {
       <td>Pizza</td>
       <td>Salado</td>
       <td>40 min</td>
-      <td>https://images.pexels.com/photos/1146760/pexels-photo-1146760.jpeg</td>
+      <td className="urlTabla">https://images.pexels.com/photos/1146760/pexels-photo-1146760.jpeg</td>
       <td>
         <Button variant="warning">
           Editar

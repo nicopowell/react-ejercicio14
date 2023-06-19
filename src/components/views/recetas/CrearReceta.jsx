@@ -1,6 +1,27 @@
 import { Form, Button } from "react-bootstrap";
+import { useForm } from "react-hook-form";
 
 const CrearReceta = () => {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+    reset,
+  } = useForm();
+
+  const onSubmit = (recetaNueva) => {
+    consultaAgregarReceta(recetaNueva).then((respuestaCreated)=>{
+      console.log(respuestaCreated)
+      if(respuestaCreated && respuestaCreated.status === 201){
+        Swal.fire('Receta creada', `El producto ${recetaNueva.nombre} fue creado correctamente`, 'success');
+        reset();
+      }else{
+        Swal.fire('Ocurrió un error', `El producto ${recetaNueva.nombre} no fue creado, intentelo mas tarde`, 'error');
+      }
+    })
+   
+  };
+
   return (
     <section className="container py-5 mainSection">
       <h1 className="display-4">Nueva receta</h1>

@@ -12,7 +12,7 @@ const Menu = ({ usuarioLogueado, setUsuarioLogueado }) => {
   return (
     <Navbar expand="lg" className="bg-body-tertiary" fixed="top">
       <Container>
-        <Navbar.Brand as={Link} to="/">
+        <Navbar.Brand as={Link} className="fw-semibold" to="/">
           Rolling Chef
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

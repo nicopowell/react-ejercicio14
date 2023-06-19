@@ -20,7 +20,6 @@ const EditarReceta = () => {
   useEffect(()=>{
     consultaReceta(id).then((respuesta)=>{
       if(respuesta){
-        console.log(respuesta);
         setValue('nombre', respuesta.nombre);
         setValue('ingredientes', respuesta.ingredientes);
         setValue('instrucciones', respuesta.instrucciones);

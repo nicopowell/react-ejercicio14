@@ -8,15 +8,12 @@ export const login = async(usuario)=>{
         //buscar cual usuario tiene el mail
         const usuarioBuscado = listaUsuarios.find((itemUsuario)=> itemUsuario.email === usuario.email);
         if(usuarioBuscado){
-            console.log('email encontrado');
             if(usuarioBuscado.password === usuario.password){
                 return usuarioBuscado;
             }else{
-                console.log('el password es incorrecto');
                 return null;
             }
         }else{
-            console.log('el email no existe');
             return null
         }       
     }catch(error){
@@ -67,6 +64,17 @@ export const consultaEditarReceta = async (receta, id) =>{
                 "Content-Type": "application/json"
             },
             body: JSON.stringify(receta)
+        });
+        return respuesta;
+    }catch(error){
+        console.log(error);
+    }
+}
+
+export const consultaBorrarReceta = async (id) =>{
+    try{
+        const respuesta = await fetch(`${URLRecetas}/${id}`, {
+            method: "DELETE"
         });
         return respuesta;
     }catch(error){

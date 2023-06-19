@@ -63,6 +63,13 @@
       "email": "admin@rollingcode.com",
       "password": "123456aA",
       "administrador": true
+    },
+    {
+      "nombreUsuario": "nico",
+      "email": "nico@rollingcode.com",
+      "password": "123456aA",
+      "administrador": false,
+      "id": 2
     }
   ]
 }

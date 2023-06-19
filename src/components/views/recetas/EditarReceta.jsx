@@ -1,6 +1,6 @@
 import { Form, Button } from "react-bootstrap";
 import { useForm } from "react-hook-form";
-import { consultaAgregarReceta, consultaEditarReceta, consultaReceta } from "../../helpers/queries";
+import { consultaEditarReceta, consultaReceta } from "../../helpers/queries";
 import Swal from "sweetalert2";
 import { useNavigate, useParams } from "react-router";
 import { useEffect } from "react";

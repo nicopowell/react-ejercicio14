@@ -57,7 +57,7 @@
       "nombreUsuario": "nico",
       "email": "nico@rollingcode.com",
       "password": "123456aA",
-      "administrador": false,
+      "administrador": "false",
       "id": 2
     }
   ]

@@ -110,6 +110,16 @@ export const consultaListaUsuarios = async () => {
   }
 };
 
+export const consultaUsuario = async (id) => {
+  try {
+    const respuesta = await fetch(URLUsuario + "/" + id);
+    const usuario = await respuesta.json();
+    return usuario;
+  } catch (error) {
+    console.log(error);
+  }
+};
+
 export const consultaAgregarUsuario = async (usuario) => {
   try {
     const usuarioNuevo = {
@@ -122,6 +132,21 @@ export const consultaAgregarUsuario = async (usuario) => {
         "Content-Type": "application/json",
       },
       body: JSON.stringify(usuarioNuevo),
+    });
+    return respuesta;
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+export const consultaEditarUsuario = async (usuario, id) => {
+  try {
+    const respuesta = await fetch(URLUsuario + "/" + id, {
+      method: "PUT",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(usuario),
     });
     return respuesta;
   } catch (error) {

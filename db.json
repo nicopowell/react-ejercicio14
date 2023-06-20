@@ -12,47 +12,36 @@
       "imagen": "https://images.pexels.com/photos/9510/food-pizza-kitchen-recipe.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
-      "nombre": "Pizza 2",
-      "ingredientes": "1/2 kilo de harina 000\n25 gr de pan de levadura fresco\n1/2 cucharada de sal\n4 cdas de aceite de oliva\n1 cda de azúcar",
-      "instrucciones": "En un bol o taza colocar la levadura y media taza de agua tibia, agregar la cucharada de azúcar. Mezclar bien hasta que se formen burbujitas. Tapar con un nylon y dejar levar mas o menos 10 minutos.\nEn otro bol, colocar la harina y mezclarla con la sal. Hacer un hueco en el centro, y luego volcar la media taza de agua con la levadura. Incorporar el resto del agua tibia. Unir con las manos todos los ingredientes hasta formar una masa. Agregar en forma de hilo el aceite y volver a amasar.\nDejar descansar la masa para pizza unos 15 minutos, y luego amasarla en una mesa con harina. Dividir la masa en dos bollos del mismo tamaño.\nEstirar la masa hasta lograr un círculo. Poner la masa en una fuente para pizza, dejar descansar en lugar templado hasta que leve un poquito. Aproximadamente 15 minutos.\nAgregar una cucharada abundante de salsa de tomate y llevar al horno 2 minutos más.",
-      "tiempo": "40 min",
-      "cantidad": "2 pizzas",
-      "categoria": "Salado",
-      "descripcion": "Receta facil de masa",
-      "imagen": "https://images.pexels.com/photos/9510/food-pizza-kitchen-recipe.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "nombre": "Flan casero",
+      "ingredientes": "5 huevos\n500cc. de leche\n200g de azúcar",
+      "instrucciones": "Lo primero que vamos a hacer es cascar nuestros 5 huevos en un bol y luego, vamos a agregar 100g de azúcar. Batimos un poco hasta romper el ligue de los huevos.\nAgregamos la leche. Sí, es mucha leche. No se asusten, queda muy líquido, pero se va a formar. Revolvemos con tenedor hasta que esté todo bien incorporado. Tener en cuenta que no hay que batir, no tiene que quedar espumoso, tiene que quedar bien mezclado y nada más, por eso lo hacemos a mano. Una vez que se mezclaron los ingredientes, reservamos.\nVamos a poner una sartén a fuego medio sin nada de nada, vamos a hacer un caramelo seco. Allí vamos a volcar los otros 100g de azúcar que nos quedan y vamos a ir revolviendo constantemente con una cuchara de madera. Tarda, pero van a ver que se va a ir derritiendo y el azúcar va a ir pasando de ser granulosa a líquida y su color va a comenzar a ponerse marrón. Tengan cuidado que el no se les pase a marrón muy oscuro porque eso quiere decir que se está quemando y va a agarrar un gusto amargo que va a arruinar la receta.\nVamos a poner la fuente en la que vamos a hacer el flan sobre otro recipiente con paredes más bajas (una tartera por ejemplo) . Esto es porque el flan se cocina a baño maría. Colorar primero el caramelo dentro de la flanera. Lo movemos un poquito para que cubra toda la superficie del molde y ahora sí, vamos a echar nuestra mezcla de flan adentro. Dice mi hermana que si ustedes quieren un flan bien lisito, como los que se compran en el supermercado, hay que colar la mezcla para que se le salgan los grumitos. sino, la dejan como está.\nUna vez que tenemos todo armado, vamos a poner agua dentro del recipiente que contiene la flanera para nuestro baño maría y también vamos a ponerle por encima una tapa de papel aluminio para que no se forme costrita. Si no les molesta, pueden no ponerlo también. Así lo vamos a llevar a horno mínimo (160º) por 40 minutos aprox.\nPara saber si el flan está listo, el truco es el mismo que para cualquier torta: se mete un cuchillo y debe salir seco. Si hacen esta prueba y sale así, el flan está listo. Antes de desmoldar, hay que dejar que el flan se enfríe del todo.",
+      "tiempo": "1 hora",
+      "cantidad": "1 flan",
+      "categoria": "Dulce",
+      "descripcion": "El flan es un postre fácil y noble, por eso hoy le hacemos honor.  Que la disruten…",
+      "imagen": "https://images.pexels.com/photos/4773405/pexels-photo-4773405.jpeg",
       "id": 2
     },
     {
-      "nombre": "Pizza 3",
-      "ingredientes": "1/2 kilo de harina 000\n25 gr de pan de levadura fresco\n1/2 cucharada de sal\n4 cdas de aceite de oliva\n1 cda de azúcar",
-      "instrucciones": "En un bol o taza colocar la levadura y media taza de agua tibia, agregar la cucharada de azúcar. Mezclar bien hasta que se formen burbujitas. Tapar con un nylon y dejar levar mas o menos 10 minutos.\nEn otro bol, colocar la harina y mezclarla con la sal. Hacer un hueco en el centro, y luego volcar la media taza de agua con la levadura. Incorporar el resto del agua tibia. Unir con las manos todos los ingredientes hasta formar una masa. Agregar en forma de hilo el aceite y volver a amasar.\nDejar descansar la masa para pizza unos 15 minutos, y luego amasarla en una mesa con harina. Dividir la masa en dos bollos del mismo tamaño.\nEstirar la masa hasta lograr un círculo. Poner la masa en una fuente para pizza, dejar descansar en lugar templado hasta que leve un poquito. Aproximadamente 15 minutos.\nAgregar una cucharada abundante de salsa de tomate y llevar al horno 2 minutos más.",
+      "nombre": "Tortilla de papas",
+      "ingredientes": "4 Huevos\n3 papas medianas\n1/2 cebolla\nSal\nAceite",
+      "instrucciones": "Cortar las papas en rodajas finas, estilo papas españolas. Deben ser de tamaño mediano, ya que queremos que queden bien unidas con el huevo. Les recomiendo que vean cómo corto las papas en el video para que se den cuenta aproximadamente del tamaño que deben tener.\nColocar abundante aceite en una sartén. Es importante saber que las papas -en la receta tradicional y auténtica de la tortilla española- no deben freírse sino que deben pocharse. Lo que vamos a hacer es poner la sartén a fuego fuerte, y en cuanto esté tibio el aceite vamos a agregar todas las papas. Si, ese es el primer truco: agregamos las papas antes de que el aceite esté hirviendo. Las dejamos cocinar durante 5 minutos.\nMientras tanto vamos a cortar la cebolla en julianas. Una vez pasados los 5 minutos agregamos las cebollas a la sartén con las papas, revolviendo suavemente.\nLuego de revolver bien para que esté todo integrado en la sartén, agregamos un poco de sal y vamos a bajar el fuego al mínimo y vamos a tapar la sartén. Pero la vamos a tapar sin que quede totalmente cerrada, dejando una mínima abertura para que pueda salir el vapor. Así la dejamos durante 15-20 minutos mientras de vez en cuando vamos revolviendo suave y procurando que no se pegue.\nUna vez que las papas estén cocidas (no deben estar crocantes, simplemente tiernas como se ve en el video), vamos a proceder a colarlas, dejándolas en un colador hasta que baje todo el aceite. Si quieren, pueden guardar éste aceite para utilizar un poquito al cocer la tortilla española.\nColocar los 4 huevos en un bol con un poco de sal y batirlos bien durante unos minutos.\nAgregar las papas con cebollas al bol y volver a batir bien hasta que esté todo integrado y unido.\nAgregamos un chorro de aceite (pueden utilizar el que reservamos) en una sartén dependiendo del estilo de tortilla que queremos. Si queremos una tortilla de papas alta utilizaremos una sartén más pequeña, si utilizamos una sartén grande vamos a tener una tortilla finita. Colocamos la sartén a fuego fuerte.\nCuando esté bien caliente el aceite, agregamos la mezcla que tenemos en el bol y movemos la sartén agitándola durante 30 segundos. No tengan miedo al mover la sartén, lo que estamos haciendo es cuajar los huevos para que la tortilla española quede a la perfección.\nLuego de los 30 segundos vamos a poner el fuego bajo y con una espátula vamos a ir corrigiendo los bordes mientras se va cociendo. Vamos a cocinar la tortilla española así durante 5 minutos. El tiempo de cocción depende exclusivamente de la forma en la que a uno le gusta, a mi no me gusta ni muy cocida ni muy babé sino un intermedio, y para eso utilizo una cocción de 5 minutos por lado. Pueden variarlo según sus gustos.\nLuego vamos a darla vuelta. Para ésto vamos a colocar un plato encima de la sarten y la damos vuelta sin miedo. Pueden ver cómo lo hago en el video, es muy fácil! Una vez que la damos vuelta vamos a emprolijar los bordes nuevamente con la espátula y dejamos cocer unos 3-4 minutos más.\nPara sacarla vamos a volver a darla vuelta. Es decir, colocamos nuevamente el plato encima de la sartén como hicimos en el punto anterior y lo damos vuelta con cuidado. Buen provecho!",
       "tiempo": "40 min",
-      "cantidad": "2 pizzas",
+      "cantidad": "1 tortilla",
       "categoria": "Salado",
-      "descripcion": "Receta facil de masa",
-      "imagen": "https://images.pexels.com/photos/9510/food-pizza-kitchen-recipe.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "id": 3
-    },
-    {
-      "nombre": "Pizza 4",
-      "ingredientes": "1/2 kilo de harina 000\\n25 gr de pan de levadura fresco\\n1/2 cucharada de sal\\n4 cdas de aceite de oliva\\n1 cda de azúcar",
-      "instrucciones": "En un bol o taza colocar la levadura y media taza de agua tibia, agregar la cucharada de azúcar. Mezclar bien hasta que se formen burbujitas. Tapar con un nylon y dejar levar mas o menos 10 minutos.\\nEn otro bol, colocar la harina y mezclarla con la sal. Hacer un hueco en el centro, y luego volcar la media taza de agua con la levadura. Incorporar el resto del agua tibia. Unir con las manos todos los ingredientes hasta formar una masa. Agregar en forma de hilo el aceite y volver a amasar.\\nDejar descansar la masa para pizza unos 15 minutos, y luego amasarla en una mesa con harina. Dividir la masa en dos bollos del mismo tamaño.\\nEstirar la masa hasta lograr un círculo. Poner la masa en una fuente para pizza, dejar descansar en lugar templado hasta que leve un poquito. Aproximadamente 15 minutos.\\nAgregar una cucharada abundante de salsa de tomate y llevar al horno 2 minutos más.",
-      "tiempo": "40 min",
-      "cantidad": "2 pizzas",
-      "categoria": "Salado",
-      "descripcion": "Receta facil de masa",
-      "imagen": "https://images.pexels.com/photos/9510/food-pizza-kitchen-recipe.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "descripcion": "La receta de tortilla española es muy popular y conocida por todos, pero no toda la gente conoce los tips y trucos para que la tortilla de papas salga perfecta.",
+      "imagen": "https://images.pexels.com/photos/14941247/pexels-photo-14941247.jpeg",
       "id": 4
     },
     {
-      "nombre": "Pizza 5",
-      "ingredientes": "1/2 kilo de harina 000\\n25 gr de pan de levadura fresco\\n1/2 cucharada de sal\\n4 cdas de aceite de oliva\\n1 cda de azúcar",
-      "instrucciones": "En un bol o taza colocar la levadura y media taza de agua tibia, agregar la cucharada de azúcar. Mezclar bien hasta que se formen burbujitas. Tapar con un nylon y dejar levar mas o menos 10 minutos.\\nEn otro bol, colocar la harina y mezclarla con la sal. Hacer un hueco en el centro, y luego volcar la media taza de agua con la levadura. Incorporar el resto del agua tibia. Unir con las manos todos los ingredientes hasta formar una masa. Agregar en forma de hilo el aceite y volver a amasar.\\nDejar descansar la masa para pizza unos 15 minutos, y luego amasarla en una mesa con harina. Dividir la masa en dos bollos del mismo tamaño.\\nEstirar la masa hasta lograr un círculo. Poner la masa en una fuente para pizza, dejar descansar en lugar templado hasta que leve un poquito. Aproximadamente 15 minutos.\\nAgregar una cucharada abundante de salsa de tomate y llevar al horno 2 minutos más.",
-      "tiempo": "40 min",
-      "cantidad": "2 pizzas",
-      "categoria": "Dulce",
-      "descripcion": "Receta facil de masa",
-      "imagen": "https://images.pexels.com/photos/9510/food-pizza-kitchen-recipe.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "nombre": "Ñoquis",
+      "ingredientes": "1 kg de papa\n300 gr de harina 0000\n1 huevo\nsal y pimienta",
+      "instrucciones": "Lo primero que vamos a hacer lavar bien las papas ya que las vamos a hervir con cáscara. Esto es muy importante para que luego los ñoquis de papa no se desarmen, ya que al cocerlas con cáscara evitamos que absorban agua en exceso. Hacemos un corte horizontal por todo el contorno de la papa, en el video se ve bien, y las llevamos a una olla con agua. Cocinar hasta que al pincharlas se caigan.\nLas retiramos y las dejamos enfriar sólo para no quemarnos. Con el corte que hicimos, la cáscara tiene que salir muy fácil en dos partes.\nPisamos las papas todavía en caliente como todo puré digno, agregamos sal, pimienta y mezclamos super bien. Agregamos el huevo batido y la harina. No le vamos a agregar toda la harina de una, nos vamos a guardar un poco para ver cómo viene. Las cantidades son más bien proporcionales, puede ser que la papa haya absorbido más agua o que el huevo sea más chico, así que vamos a agregar la harina de a poco.\nUnir con la mano hasta que se pueda pasar hasta la mesada y terminar de integrar. Si en este paso ven que hace falta más harina, tenemos el resto para agregar. No es necesario amar mucho, la idea es llegar a una masa unida y uniforme sin tocarla mucho.\nCortar tiras de masa y hacer chorricitos o rollitos, y cortar trocitos de unos 2 o 3 cm de ancho, pueden enharinar el cuchillo para que sea más fácil.\nAhora viene la magia, vamos a pasarlos por la herramienta para darle forma a los ñoquis de papa de arriba hacia abajo. También pueden usar un tenedor enharinado que también les deja una forma similar. Colocarlos en una placa enharinada sin que se toquen para que no se pegoteen. Y claro, también pueden hacerlos sin la herramienta y simplemente que queden en su versión más rústica.\nPara la cocción, llevar de a tandas a una olla con agua hirviendo con sal. Van a ver que se caen al fondo. Cuando suben, los dejan 1 minuto y ya están listos!",
+      "tiempo": "35 min",
+      "cantidad": "4-6 porciones",
+      "categoria": "Salado",
+      "descripcion": "Hacer ñoquis de papa caseros tiene muchas ventajas, además de ser una comida económica, son fáciles y extremadamente ricos. Para que sean un éxito, sólo tenemos que tener en cuenta ciertos tips o claves.",
+      "imagen": "https://images.pexels.com/photos/15772720/pexels-photo-15772720/free-photo-of-persona-cocinando-noquis.jpeg",
       "id": 5
     }
   ],
@@ -63,6 +52,13 @@
       "email": "admin@rollingcode.com",
       "password": "123456aA",
       "administrador": true
+    },
+    {
+      "nombreUsuario": "nico",
+      "email": "nico@rollingcode.com",
+      "password": "123456aA",
+      "administrador": "false",
+      "id": 2
     }
   ]
 }

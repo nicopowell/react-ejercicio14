@@ -18,6 +18,11 @@ const RutasAdministrador = () => {
           path="/editar-receta/:id"
           element={<EditarReceta></EditarReceta>}
         ></Route>
+        <Route
+          exact
+          path="/editar-usuario/:id"
+          element={<EditarReceta></EditarReceta>}
+        ></Route>
       </Routes>
     </>
   );

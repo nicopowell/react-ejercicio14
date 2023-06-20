@@ -153,3 +153,14 @@ export const consultaEditarUsuario = async (usuario, id) => {
     console.log(error);
   }
 };
+
+export const consultaBorrarUsuario = async (id) => {
+  try {
+    const respuesta = await fetch(`${URLUsuario}/${id}`, {
+      method: "DELETE",
+    });
+    return respuesta;
+  } catch (error) {
+    console.log(error);
+  }
+};

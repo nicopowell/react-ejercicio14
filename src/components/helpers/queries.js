@@ -100,6 +100,16 @@ export const consultaBorrarReceta = async (id) => {
   }
 };
 
+export const consultaListaUsuarios = async () => {
+  try {
+    const respuesta = await fetch(URLUsuario);
+    const listaUsuarios = await respuesta.json();
+    return listaUsuarios;
+  } catch (error) {
+    console.log(error);
+  }
+};
+
 export const consultaAgregarUsuario = async (usuario) => {
   try {
     const usuarioNuevo = {
